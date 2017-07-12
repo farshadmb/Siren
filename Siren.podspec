@@ -15,5 +15,5 @@ Siren is checks a user’s currently installed version of your iOS app against t
   s.source_files = 'Sources/*.swift'
   s.resources    = 'Sources/Siren.bundle'
   s.requires_arc = true
-
+  s.dependency 'OKAlertController', '~> 2.0.1'
 end
